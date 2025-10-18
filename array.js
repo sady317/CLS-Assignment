@@ -1,4 +1,5 @@
-//15
+//15      Create an object with your name, age, and city, then access its values.
+
 var Myself={
     Name:"Sady",
     Profession:"Student",
@@ -7,14 +8,17 @@ var Myself={
 var values= Object.values(Myself)
 console.log(values)
 
-// 16
+
+// 16   Create an array of numbers and find their average.
+
 var numbers=[10+20+40+52+83]
 var average=numbers/5
 console.log(average)
 
 
 
-//17
+//17    	Find the largest number in an array.
+
 var arrey=[10,62,38,74,57,29,35,]
 var highestnumber=0
 for(var i=0; i<arrey.length;i++){
@@ -23,7 +27,8 @@ for(var i=0; i<arrey.length;i++){
 }console.log(highestnumber)
 
 
-//19
+//19    Create an object and use a loop to print all key–value pairs.
+
 var subject={
     English:52,
     Bangla:70,

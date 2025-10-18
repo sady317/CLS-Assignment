@@ -1,9 +1,22 @@
-// 1
+// 1  Write a program to add two numbers.
+
 var arrey=[10,20]
 arrey.push(30,40)
 console.log(arrey)
 
-//3
+
+//2  Check if a number is even or odd.
+
+var number=87
+if(number%2==0){
+    console.log("Even")
+}
+else{
+    console.log("odd")
+}
+
+//3  Find the largest of three numbers.
+
 var largestNumber=0
 for(i=0;i<arrey.length;i++){
     if(largestNumber<arrey[i]){
@@ -12,14 +25,19 @@ for(i=0;i<arrey.length;i++){
 }console.log(largestNumber)
 
 
-//5
+//4      Convert Celsius to Fahrenheit.
 
-var sum = 0;
+var calcius=25
+var farhenint=(calcius*9/5)+32
+console.log(calcius+"c="+ farhenint + "F")
 
-for (var i = 1; i <= 100; i++) {
-    sum = sum + i;
-}
 
-console.log("Sum of numbers from 1 to 100 is:", sum);
+
+//5   Calculate the sum of all numbers from 1 to 100 using a loop.
+
+var loop=0
+for(i=1; i<=100; i++)
+    loop=loop+i
+console.log(loop)
 
 
