@@ -27,6 +27,20 @@ for(var i=0; i<arrey.length;i++){
 }console.log(highestnumber)
 
 
+
+//18  	Remove duplicates from an array.
+
+let number=[1,2,2,3,4,4,5,5,6,6,7,7,8,]
+let duplicates=[]
+for(i=0;i<number.length;i++){
+    if(!duplicates.includes(number[i])){
+        duplicates.push(number[i])
+    }
+}console.log("without duplicates:",duplicates)
+
+
+
+
 //19    Create an object and use a loop to print all key–value pairs.
 
 var subject={
