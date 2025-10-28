@@ -1,10 +1,3 @@
-let array=[1,2,3,4,5,5,5,6,7,8]
-// array.filter((n)=>console.log(n))
-let specific=5
-let find=array.map((n)=>n==specific)
-// console.log(find)
-
-
 let arr =["sady","ahmed","chowdhury"]
 
 // arr.pop()  //akdom seser word muche jave
@@ -13,11 +6,33 @@ let arr =["sady","ahmed","chowdhury"]
 // arr.unshift("iftekar")  // proteme word add hobe
 
 
+
+let array=[1,2,3,4,5,5,5,6,6,6,7,8]
+// array.filter((n)=>console.log(n))
+//MAP METHOD
+let specific=5
+let find=array.map((n)=>n==specific)
+// console.log(find)
+
+
+
 arr[1]="iftekar"
 // console.log(arr)
 
 
 // array.map((n)=>console.log(n))
+
+//FIND METHOD
+let specificnum=6
+let findnum=array.find((n)=>n==specificnum)
+// console.log(findnum)
+
+
+//FILTER METHOD
+let filter=6
+let filternum=array.filter((n)=>n==filter)
+console.log(filternum)
+
 
 
 /// Even,Odd
