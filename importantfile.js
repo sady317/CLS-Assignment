@@ -22,16 +22,25 @@ arr[1]="iftekar"
 
 // array.map((n)=>console.log(n))
 
+
+
+
 //FIND METHOD
 let specificnum=6
 let findnum=array.find((n)=>n==specificnum)
 // console.log(findnum)
 
 
+
+
+
 //FILTER METHOD
 let filter=6
 let filternum=array.filter((n)=>n==filter)
 console.log(filternum)
+
+
+
 
 
 
@@ -47,6 +56,10 @@ else if(number%2!==0){
         console.log("infinity")
     }
 
+
+
+
+
 //num positive,negative abong zero
     let num=0
     if(num>0){
@@ -60,6 +73,9 @@ else if(number%2!==0){
     }
 
 
+
+
+
  /// age avilabele kina vote ar jonno seti check kora   
 let age=22
 if(age>=18){
@@ -68,6 +84,9 @@ if(age>=18){
 else{
     console.log("you are not available for vote")
 }
+
+
+
 
 
 //kunti boro seti berkorte ati use kora hoy
@@ -84,6 +103,9 @@ else{
 }
 
 
+
+
+
 //finding vowels in a word
 let text="My name is sady and i'm a student"
 let vowels="aeiouAEIOU"
@@ -95,12 +117,18 @@ for(i=0;i<text.length;i++){
 }console.log("vowels:",count)
 
 
+
+
+
 //reverseing word without using built in methods
 let word="sady"
 let reverseword=""
 for(let i=word.length-1;i>=0;i--){
     reverseword=reverseword+word[i]
 }console.log(reverseword)
+
+
+
 
 
 ///rule of finding higestnumber
